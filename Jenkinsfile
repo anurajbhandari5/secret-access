@@ -3,7 +3,7 @@ agent any
 stages{
 stage('checkout Source Repo'){
   when {
-    branch: dev
+    branch 'dev'
   }
 steps{
 sh 'echo dev' 
@@ -11,7 +11,7 @@ sh 'echo dev'
 }
   stage('qa'){
     when{
-    branch: qa
+    branch 'qa'
     }
     steps{
     sh 'echo qa'
