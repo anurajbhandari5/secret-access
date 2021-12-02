@@ -6,7 +6,11 @@ stage('checkout Source Repo'){
     branch 'dev'
   }
 steps{
+
 sh 'echo dev' 
+
+sh 'echo main'
+
 }
 }
   stage('qa'){
