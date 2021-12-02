@@ -5,5 +5,6 @@ stages{
   steps{
   sh 'echo qa '
   }
+  }
 }
 }
